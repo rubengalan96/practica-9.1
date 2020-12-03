@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hazte cliente | Bankinter</title>
+    <link rel="stylesheet" href="formularios.css">
+</head>
+<body>
+    <header>
+        <img src="img/bankinter.jpg" alt="BANKINTER" title="Icono Bankinter" class="bank">
+    </header>
+    <main class="bankinter">
+        <section class="bankinter">
+            <form action="pagina.php" method="GET">
+         <h2>Empieza creando tu usuario</h2>
+         <p><input type="text" name="nombre"  id="nombre" size="60" placeholder="Nombre(como sale en el DNI"></p> 
+         <p><input type="text" name="apellido1"  id="apellido1" size="27" placeholder="1ºapellido (como sale en el DNI)"> 
+            <input type="text" name="apellido2"  id="apellido2" size="27" placeholder="2ºapellido (como sale en el DNI)"></p>
+
+           <p> <select name="tipodocumento"> 
+                <option selected >DNI/NIF/CERT.AEAT</option>
+                <optgroup label="Tipo de documento">
+                  <option value="1">DNI/NIF/CERT.AEAT</option>
+                </optgroup> 
+                 <input type="text" name="nombre"  id="num_documento" size="27" placeholder="Número de documento">
+               
+            </p> 
+            <p> <input type="tel" name="movil"  id="movil" size="27" placeholder="Móvil">
+                 <input type="email" name="corre"  id="email" size="27" placeholder="Email">
+            </p>
+            <p><input type="checkbox" name="confirma"id="confirmacion">Confirmo que he leído y acepto la información básica sobre protección de datos personales</p>
+            <p class="centrado"><input type="button" value="Continuar" id="continuar"></p>
+        </form>
+        </section>
+    </main>
+    
+</body>
+</html>

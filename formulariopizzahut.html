@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzas y comidas a domicilio</title>
+    <link rel="stylesheet" href="formularios.css">
+</head>
+<body>
+    <header>
+        <p><a href="https://www.pizzahut.es/"><img src="img/pizzahut.png" alt="pizzahut" title="iconopizzahut" class="pizzahut"></p></a>
+        <hr>
+    
+    </header>
+    <main>          
+        <section class="pizzahut">
+            <form action="pagina.php" method="GET">
+            <p class="atras"><a href="https://www.pizzahut.es/">Atrás</a></p>
+            <p class="centrado1">¿Eres nuevo?</p>
+            <p class="centrado">Regístrate para guardar tu información y hacer <br> tus pedidos de forma más fácil y rápida</p>
+            <p>Email</p><input type="email" name="email"  id="email" size="40" placeholder="Introduce tu email"></p> 
+            <p>Teléfono</p><input type="tel" name="telefono"  id="telefono" size="40" placeholder="Tu teléfono">
+            <p>Contraseña </p><input type="password" name="contraseña"  id="pass" size="40" placeholder="Introduce tu contraseña">
+            <p>Confirma tu contraseña </p><input type="password" name="contraseña"  id="pass" size="40" placeholder="Confirmar contraseña">
+            <p><input type="checkbox" name="politica"id="politica_priv">He leído y acepto <a href="https://www.pizzahut.es/info/aviso-legal">Política de privacidad</a></p>
+            <p><input type="checkbox" name="comunicaciones" id="recibir_com">Sí, acepto recibir comunicaciones comerciales y ofertas personalizadas según mi perfil.</p>
+            <p class="centrado"><input type="button" value="Crea tu cuenta" id="crear_cuenta"></p>
+        </form>
+        </section>
+
+    </main>
+
+    
+</body>
+</html>

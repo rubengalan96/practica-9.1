@@ -1,0 +1,59 @@
+img.ing{
+    width: 100px;
+    float: left;
+    margin-left: 200 px;
+}
+img.pizzahut{
+    width: 400px;
+    
+    margin-left: 200 px;
+}
+p.telefono{
+text-align: right;
+margin-right: 200px;
+font-size: x-large;
+}
+main.ing{
+    background-color: rgb(224, 221, 221);
+}
+section.ing{
+    background-color: white;
+    border: black 1px solid;
+    margin-top: 50px;
+    margin-left: 700px;
+    margin-right: 700px;
+    
+}
+p.centrado{
+    text-align: center;
+}
+img.bank{
+    margin-left: 300px;
+    width: 200px;
+}
+section.bankinter{
+    background-color: white;
+    border: black 1px solid;
+    margin-top: 50px;
+    margin-left: 680px;
+    margin-right: 680px;
+}
+main.bankinter{
+    background-color: rgb(247, 245, 245);
+}
+p.atras{
+    text-align: left;
+    text-decoration: underline;
+}
+section.pizzahut{
+    background-color: white;
+    border: black 1px solid;
+    margin-top: 50px;
+    margin-left: 680px;
+    margin-right: 680px;
+}
+p.centrado1{
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}  
